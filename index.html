@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Testes WEB</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #fde9e4fa;
+        }
+
+        header {
+            background: #fab1a0;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 5em;
+            line-height: 1.2;
+            text-align: center;
+            color: #ff7675;
+            text-shadow: 5px 5px 10px #a74a4a;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 2;
+        }
+
+        ul {
+            background: #ff7675;
+            display: flex;
+            list-style: none;
+            width: 100%;
+            font-size: 18px;
+            height: 10vh;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        .container {
+            width: 90%;
+            height: 1500px;
+            max-width: 800px;
+            margin: 50px auto;
+        }
+
+        section {
+
+        }
+
+        h1 {
+            color: #d63031;
+            font-size: 43px;
+            line-height: 55px;
+            margin-top: 20px;
+        }
+
+        .link {
+            color: #d63031;
+            display: inline-block;
+        }
+
+        .sticky {
+
+        }
+
+        img {
+
+        }
+
+        @media (max-width: 700px) {
+            ul {
+
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Testes WEB</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="range_slider.html">Range slider</a></li>
+        <li><a href="menu_sticky.html">Menu sticky</a></li>
+        <li><a href="dynamic_progress_bar.html">Dynamic progress bar</a></li>
+        <li><a href="#">Sobre</a></li>
+    </ul>
+</nav>
+
+<article class="container">
+    <section id="range_slider">
+        <h1>Range slider</h1>
+        <p>Range slider</p>
+    </section>
+
+    <section id="menu_sticky">
+        <h1>Menu sticky</h1>
+        <p>Menu sticky</p>
+    </section>
+</article>
+
+</body>
+</html>
